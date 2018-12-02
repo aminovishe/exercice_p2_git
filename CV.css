@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'sawarabi_gothicmedium';
+    src: url('font/sawarabi-gothic-medium-webfont.eot');
+    src: url('font/sawarabi-gothic-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/sawarabi-gothic-medium-webfont.woff2') format('woff2'),
+         url('font/sawarabi-gothic-medium-webfont.woff') format('woff'),
+         url('font/sawarabi-gothic-medium-webfont.ttf') format('truetype'),
+         url('font/sawarabi-gothic-medium-webfont.svg#sawarabi_gothicmedium') format('svg');
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section 
+{
+	display:block;
+}
+
+body
+{
+    background: url(barre.jpg) no-repeat fixed left , url(back.jpg) center;
+    margin-left: 180px;
+}
+/*Header*/
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#titre h1, #titre a
+{
+    font-family: 'sawarabi_gothicmedium','Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}
+#titre p
+{
+    font-family: 'sawarabi_gothicmedium','Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+#ma_photo a
+{
+    margin-left: 20px;
+    box-shadow: 5px 2px 5px rgb(76, 83, 76);
+}
+/*section*/
+section h2
+{
+    font-family: 'sawarabi_gothicmedium','Times New Roman', Times, serif;
+    font-size: 25px;
+    display: flex;
+
+    color: rgb(33, 33, 73);
+    justify-content: :left;
+}
+#experience1,#experience2
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border-bottom: groove black 3px;
+
+}
+#experience3
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.exp1
+{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    
+}
+.exp2
+{
+    border-left: groove black 3px;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+.logo
+{
+    float: right;
+}
+#formation1
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border-bottom: groove black 3px;
+}
+#formation2
+{
+    display: flex;
+    flex-direction: row;
+    border-bottom: groove black 3px;
+}
+.for1
+{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    
+}
+.for2
+{
+    border-left: groove black 3px;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+#competance
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border-bottom: groove black 3px;
+}
+.comp1
+{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+.comp2, .comp3
+{
+    border-left: groove black 3px;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
+
+
+
+
