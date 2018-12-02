@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'sawarabi_gothicmedium';
+    src: url('font/sawarabi-gothic-medium-webfont.eot');
+    src: url('font/sawarabi-gothic-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/sawarabi-gothic-medium-webfont.woff2') format('woff2'),
+         url('font/sawarabi-gothic-medium-webfont.woff') format('woff'),
+         url('font/sawarabi-gothic-medium-webfont.ttf') format('truetype'),
+         url('font/sawarabi-gothic-medium-webfont.svg#sawarabi_gothicmedium') format('svg');
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section 
+{
+	display:block;
+}
+body
+{
+    background: url(back.jpg) center;
+    margin-left: 20px;
+}
+/*Header*/
+header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#titre h1, #titre a
+{
+    font-family: 'sawarabi_gothicmedium','Times New Roman', Times, serif;
+}
+#titre p
+{
+    font-family: 'sawarabi_gothicmedium','Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+}
+header #ma_photo
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+/*section*/
+
+#experience1,#experience2
+{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+#experience3
+{
+    display: flex;
+    flex-direction: column;
+    border-bottom: groove black 3px;
+}
+.exp1
+{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    border: none;
+}
+.exp2
+{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    border: none;
+}
+.logo
+{
+    float: right;
+}
+#formation1
+{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+#formation2
+{
+    display: flex;
+    flex-direction: column;
+    border-bottom: groove black 3px;
+}
+.for1
+{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    border: none;
+}
+.for2
+{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    border: none;
+}
+#competance
+{
+    display: flex;
+    flex-direction: column;
+    border-bottom: groove black 3px;
+}
+.comp1
+{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    border: none;
+}
+.comp2, .comp3
+{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    border: none;
+}
